@@ -1,0 +1,17 @@
+# Secrets: YNAB access tokens must never be committed.
+.env
+.env.*
+!.env.example
+
+# Personal Claude Code instructions (the shared ones live in CLAUDE.md).
+CLAUDE.local.md
+.claude/settings.local.json
+
+# OS and editor clutter.
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+
+# Language and tooling ignores are added once the stack is chosen.

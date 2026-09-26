@@ -1,0 +1,15 @@
+# Normalize line endings to LF in the repo and working tree on every OS
+# (Windows, macOS, WSL), so diffs and tooling behave the same everywhere.
+* text=auto eol=lf
+
+# Windows-only scripts need CRLF to run correctly.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets: never touch.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
